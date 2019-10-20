@@ -1,5 +1,6 @@
 package com.memory.tenyears;
 
+import com.memory.tenyears.models.user.account.SmsKyeInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
