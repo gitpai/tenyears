@@ -8,10 +8,19 @@ import java.util.Date;
  * @Version 1.0
  */
 public class UserVerifyCode {
+    private Integer id;
     private String userName;
     private String phoneNumber;
     private String verfyCode;
     private Date date;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public Date getDate() {
         return date;
